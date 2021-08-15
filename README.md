@@ -27,6 +27,10 @@ docker-compose build --build-arg DRIVER_VERSION=$(nvidia-smi --query-gpu=driver_
 docker-compose up
 ```
 
+Open `:8081/vnc.html` in your browser.
+
+## Config
+
 The following parameters can be set:
 
 * X11VNC_PORT
